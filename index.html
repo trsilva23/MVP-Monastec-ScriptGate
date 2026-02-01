@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Script Gate — Portal de Scripts e Playbooks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-night">
+  <div id="app" class="app-root">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-svg" id="logoSvg"></div>
+        <h1>Script Gate</h1>
+      </div>
+
+      <div class="controls">
+        <label class="toggle-wrap" title="Alternar tema (Night / Day)">
+          <input id="themeToggle" type="checkbox" checked />
+          <span class="toggle-bg">
+            <span class="toggle-ball"></span>
+          </span>
+          <span class="toggle-label">Night</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Index / Menu -->
+      <section id="menuPage" class="page page-menu">
+        <h2 class="page-title">Bem-vindo ao Script Gate</h2>
+        <p class="lead">
+          Portal de scripts, comandos e playbooks para treinamento de analistas N1/N2.
+          Use os blocos abaixo para abrir o conteúdo de cada tópico.
+        </p>
+
+        <div id="tiles" class="tiles-grid"></div>
+      </section>
+
+      <!-- Content pages rendered dynamically -->
+      <section id="contentPage" class="page page-content hidden">
+        <button id="backButton" class="btn-back" title="Voltar ao menu principal">← Voltar</button>
+        <div id="contentInner"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>Script Gate — NOC Knowledge Portal • Uso interno • Versão: 1.0</small>
+    </footer>
+  </div>
+
+  <!-- Dados e scripts (todos locais) -->
+  <script src="portalData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
