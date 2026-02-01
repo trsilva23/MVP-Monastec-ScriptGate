@@ -1,9 +1,9 @@
-# Script Gate — Portal de Scripts e Playbooks Operacionais (NOC)
+# Script Gate — Portal de Scripts e Playbooks Operacionais 
 
 ## Sobre
-O **Script Gate** é um portal local de conhecimento técnico criado para treinamento, padronização e suporte operacional de analistas **N1 e N2** em ambientes industriais.
+O **Script Gate** é um portal local de conhecimento técnico criado para treinamento, padronização e suporte operacional de analistas **N1 e N2**.
 
-O objetivo do projeto é centralizar **scripts, comandos, consultas SQL e playbooks de troubleshooting** utilizados no dia a dia de um **Network Operations Center (NOC)**, facilitando o acesso rápido às informações, reduzindo erros operacionais e acelerando o diagnóstico de incidentes em **Redes, Servidores Linux/Windows, ERPs, CRMs, PDVs e Integrações Fiscais**.
+O objetivo deste MVP é demonstrar a centralização de **scripts, comandos, consultas SQL e playbooks de troubleshooting** utilizados no dia a dia de um **Network Operations Center (NOC)**, facilitando o acesso rápido às informações, reduzindo erros operacionais e acelerando o diagnóstico de incidentes em **Redes, Servidores Linux/Windows, ERPs, CRMs, PDVs e Integrações Fiscais**.
 
 O portal foi projetado para funcionar **100% offline**, sendo aberto diretamente no navegador a partir de arquivos locais, sem dependência de servidores web, bancos de dados ou conexão com a internet.
 
